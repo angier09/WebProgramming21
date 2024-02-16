@@ -1,0 +1,18 @@
+body
+{
+    margin: 5rem;
+}
+
+h1
+{
+    padding: 3rem;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: pink;
+}
+
+p
+{
+    text-align: center;
+}

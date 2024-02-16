@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Task5.css" rel="stylesheet"></link>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Calendar</title>
+</head>
+<body style="background-color: rgb(226, 235, 226);">
+    <h1>Calendar</h1>
+    <div>
+        <input type="text" id="month" placeholder="Enter month (e.g., Jan)">
+        <button onclick="getDays()">Get Days</button>
+    </div>
+    <p id="result"></p>
+
+    <script>
+        function getDays() 
+        {
+            var monthName = document.getElementById('month').value.trim().toLowerCase();
+            var days = 0;
+
+            if (monthName === 'jan' || monthName === 'mar' || monthName === 'may' || monthName === 'jul' || monthName === 'aug' || monthName === 'oct' || monthName === 'dec')
+            {
+                days = 31;
+            } else if (monthName === 'feb') {
+                days = "28 or 29";
+            } else if (monthName === 'apr' || monthName === 'jun' || monthName === 'sep' || monthName === 'nov')
+            {
+                days = 30;
+            } 
+            else
+            {
+                days = "Invalid month choice.";
+            }
+
+            document.getElementById('result').innerText = "Total days in " + monthName.toLowerCase() + ": " + days;
+        }
+    </script>
+</body>
+</html>

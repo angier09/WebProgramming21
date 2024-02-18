@@ -1,3 +1,5 @@
+
+
 <h1>Web Programming Assignment 1</h1>
 <h2>Task-1: Portfolio Design</h2>
 <p>Screen Shot</p>
@@ -11,4 +13,6 @@
 <img src="login1.png"><br>
 <p>animation on login button, changes color on hover</p>
 <img src="login2.png"><br>
+<h1>Class Activities</h1>
+<p>end</p>
 

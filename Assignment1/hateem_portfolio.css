@@ -1,0 +1,115 @@
+/* Resetting default margin and padding */
+body, header, nav, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+header {
+    display: flex;
+    justify-content: space-between; /* Aligning items to opposite ends */
+    align-items: center;
+    background-color: #aecdec; /* Example background color */
+    padding: 10px;
+}
+
+.leftlogo {
+    margin-left: 20px; /* Adding margin to separate logo from left edge */
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    margin-right: 20px; /* Adding margin to separate links from right edge */
+}
+
+.nav-link {
+    color: #343a40; 
+    font-size: 1.2rem;
+    margin-left: 20px; /* Adding margin between links */
+    display: inline-block;
+}
+
+.nav-link:hover {
+    text-decoration:underline;
+    color: rgb(237, 247, 105);
+    font-weight:bolder;
+}
+
+
+.flex-container 
+{
+    display: flex;
+    justify-content: center; /* Centering content horizontally */
+    align-items: center; /* Centering content vertically */
+    min-height: 100vh;
+}
+
+/* Text content styles */
+.text-container
+{
+    text-align: center;
+}
+
+.para1
+{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.para2
+{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Centering image horizontally */
+    align-items: center; /* Centering image vertically */
+    height: 100vh;
+}
+
+/* Profile image styles */
+.img1 {
+    width: 256px;
+    height: 256px;
+    border-radius: 50%; /* Making the image rounded */
+    object-fit: cover; /* Ensuring the image covers the entire container */
+}
+
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-text {
+    color: rgb(160, 174, 192);
+}
+
+.social-link {
+    color: rgb(160, 174, 192);
+    font-size: 20px;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: rgb(255, 255, 255);
+}

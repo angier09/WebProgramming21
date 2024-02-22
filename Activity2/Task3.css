@@ -1,0 +1,30 @@
+input[type=text] {
+    width: 50%;
+    margin-left: 100px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 50%;
+    margin-left: 100px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 50%;
+    margin-left: 100px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.register
+{
+    width: 50%;
+    margin-left: 100px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    text-align: center;
+}
+

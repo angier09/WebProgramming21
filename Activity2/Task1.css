@@ -1,0 +1,17 @@
+h1{
+    text-shadow: 2px 2px 2px #aa336a;
+
+}
+
+h2{
+    text-align: justify;
+    color: rgb(35, 7, 80);
+    text-shadow: 2px 1px 1px;
+}
+
+p{
+    font-size: larger;
+    padding: 2px 1px;
+    text-shadow: 2px 2px 2px #aa336a;
+
+}

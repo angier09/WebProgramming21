@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="LogInValidation.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <title>LogIn</title>
+    </head>
+    <body style="background-color: rgb(238, 121, 170); display: flex;">
+        <div class="image-container">
+            <div class="image">
+                    <img src="Screenshot 2024-02-10 144103.png" alt="sign up">
+            </div>
+        </div>
+        <div class="LogIn">
+            <div class="heading">
+                <h2>LogIn</h2>
+            </div>
+            <div class="description">
+                <br>
+                <p>Hey! enter credentials to log in.</p>
+            </div>
+            <form id = "signUp" class="signup-form" action="https://www.linkedin.com/in/hateem-khurram-931662253/">
+                <div class="input-group">
+                    <input id="name" type="text" placeholder="Enter your Name" class="input-field">
+                    <span id="nameError"></span>
+                </div>
+
+                <div class="input-group">
+                    <input id="email" type="email" placeholder="Enter your Email" class="input-field">
+                    <span id="emailError"></span>
+                </div>
+                <div class="input-group">
+                    <input id="password" type="password" placeholder="Enter your Password" class="input-field">
+                    <span id="passwordError"></span>
+                </div>
+                <div>
+                    <button type="submit" class="submit-button" style="background-color: rgb(218, 116, 243);">Log In</button>
+                </div>
+            </form>
+        </div>
+        <script src="LogInValidation.js"></script>
+    </body>
+</html>

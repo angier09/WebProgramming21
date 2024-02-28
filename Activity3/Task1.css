@@ -1,0 +1,46 @@
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+
+.nav-item
+{
+    font-size: 1rem !important;
+}
+
+.nav-link
+{
+    color: white !important;
+}
+
+.nav-item:hover .nav-link {
+    color: green !important;
+}
+
+
+.Search
+{
+    size: 8rem;
+    border: 3px;
+    border-radius: 3px;
+    width: 600px; /* Adjust the width as needed */
+    font-size: 1rem; /* Adjust the font size as needed */
+}
+
+.Popular
+{
+    color: white;
+    font-size: 1.5rem;
+    padding-right: 1rem;
+}
+.btn-category
+{
+    
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.popular-categories
+{
+    margin-bottom: 20px;
+}
